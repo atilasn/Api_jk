@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Alunos;
 use Illuminate\Http\Request;
 
-class AlunosController
+class AlunosController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,8 +17,8 @@ class AlunosController
         $alunos = Alunos::all();
         $response = [
             'success' => true,
-            'message' => 'Books retrieved successfully.',
-            'products' => $alunos,
+            'message' => 'alunos listados com sucesso!',
+            'alunos' => $alunos,
         ];
         return response()->json($response, 200);
     }
@@ -30,7 +30,6 @@ class AlunosController
      */
     public function create()
     {
-        return view('alunos.create');
     }
 
     /**
@@ -41,10 +40,7 @@ class AlunosController
      */
     public function store(Request $request)
     {
-        $alunos = new Alunos;
-        $alunos->nome = $request->nome;
-        $alunos->save();
-        return redirect()->route('alunos.index')->with('message', 'Product created successfully!');
+
     }
 
     /**
