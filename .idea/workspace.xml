@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9877b2e8-f8b3-4ec5-95c6-c5c9083ce892" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +181,8 @@
       <workItem from="1590696871864" duration="600000" />
       <workItem from="1590952004955" duration="4625000" />
       <workItem from="1591229116909" duration="9555000" />
-      <workItem from="1591276006090" duration="805000" />
+      <workItem from="1591276006090" duration="3641000" />
+      <workItem from="1591297780821" duration="178000" />
     </task>
     <task id="LOCAL-00001" summary="começo">
       <created>1590642545446</created>
@@ -225,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591245939216</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Instalação passaport">
+      <created>1591276925292</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591276925292</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +248,8 @@
     <MESSAGE value="Ajuste docker-compose.yml" />
     <MESSAGE value="Verbos ok" />
     <MESSAGE value="JWT instalado." />
-    <option name="LAST_COMMIT_MESSAGE" value="JWT instalado." />
+    <MESSAGE value="Instalação passaport" />
+    <option name="LAST_COMMIT_MESSAGE" value="Instalação passaport" />
   </component>
   <component name="WindowStateProjectService">
     <state x="228" y="56" key="#CLI_Interpreters" timestamp="1591276690574">
@@ -251,10 +260,10 @@
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="288" y="35" key="#phpunit.xml/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590637590124" />
-    <state x="223" y="23" key="CommitChangelistDialog2" timestamp="1591245938885">
-      <screen x="0" y="23" width="1280" height="716" />
+    <state x="223" y="23" key="CommitChangelistDialog2" timestamp="1591276924664">
+      <screen x="0" y="23" width="1280" height="715" />
     </state>
-    <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591234536088" />
+    <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591276924664" />
     <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.715@0.23.1280.715" timestamp="1590696920346" />
     <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1591245938885" />
     <state x="390" y="271" width="499" height="245" key="ComposerInitDialogKey" timestamp="1591276708057">
@@ -273,10 +282,10 @@
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="141" y="23" width="997" height="715" key="SettingsEditor/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590632192380" />
-    <state x="240" y="109" key="Vcs.Push.Dialog.v2" timestamp="1591245941873">
-      <screen x="0" y="23" width="1280" height="716" />
+    <state x="240" y="109" key="Vcs.Push.Dialog.v2" timestamp="1591276927650">
+      <screen x="0" y="23" width="1280" height="715" />
     </state>
-    <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591234537691" />
+    <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591276927650" />
     <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.715@0.23.1280.715" timestamp="1590697029067" />
     <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1591245941873" />
     <state x="294" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1590632177324">
