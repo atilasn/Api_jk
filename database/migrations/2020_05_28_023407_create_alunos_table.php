@@ -19,7 +19,7 @@ class CreateAlunosTable extends Migration
             $table->string('cpf', 11);
             $table->string('cod_cur', 6);
             $table->string('nome', 45);
-            $table->date('nascimento');
+            $table->string('nascimento');
             $table->boolean('bolsa');
             $table->string('email', 30);
             $table->timestamps();

@@ -40,6 +40,11 @@ class AlunosController extends Controller
      */
     public function store(Request $request)
     {
+        $alunos = new Alunos();
+        $alunos->fill($request->all());
+        $alunos->save();
+
+        return response()->json($alunos, 201);
 
     }
 
@@ -49,9 +54,17 @@ class AlunosController extends Controller
      * @param \App\Alunos $alunos
      * @return \Illuminate\Http\Response
      */
-    public function show(Alunos $alunos)
+    public function show($id)
     {
-        //
+        $alunos = Alunos::find($id);
+
+        if(!$alunos) {
+            return response()->json([
+                'message'   => 'Record not found',
+            ], 404);
+        }
+
+        return response()->json($alunos);
     }
 
     /**
@@ -72,9 +85,20 @@ class AlunosController extends Controller
      * @param \App\Alunos $alunos
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Alunos $alunos)
+    public function update(Request $request, $id)
     {
-        //
+        $aluno = Alunos::find($id);
+
+        if(!$aluno) {
+            return response()->json([
+                'message'   => 'Record not found',
+            ], 404);
+        }
+
+        $aluno->fill($request->all());
+        $aluno->save();
+
+        return response()->json($aluno);
     }
 
     /**
@@ -83,8 +107,16 @@ class AlunosController extends Controller
      * @param \App\Alunos $alunos
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Alunos $alunos)
+    public function destroy($id)
     {
-        //
+        $aluno = Alunos::find($id);
+
+        if(!$aluno) {
+            return response()->json([
+                'message'   => 'Record not found',
+            ], 404);
+        }
+
+        $aluno->delete();
     }
 }

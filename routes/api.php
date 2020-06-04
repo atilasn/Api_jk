@@ -17,4 +17,13 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
-Route::get('alunos', 'AlunosController@index');
+
+Route::get('/', function () {
+    return response()->json(['message' => 'Jobs API', 'status' => 'Connected']);;
+});
+
+Route::resource('alunos', 'AlunosController');
+
+Route::get('/', function () {
+    return redirect('api');
+});
