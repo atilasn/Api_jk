@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9877b2e8-f8b3-4ec5-95c6-c5c9083ce892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AlunosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AlunosController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Alunos.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Alunos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_28_023407_create_alunos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_28_023407_create_alunos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -150,33 +153,76 @@
       <option name="presentableId" value="Default" />
       <updated>1590632162277</updated>
       <workItem from="1590632171258" duration="578000" />
-      <workItem from="1590633007174" duration="5651000" />
+      <workItem from="1590633007174" duration="5789000" />
+      <workItem from="1590696871864" duration="600000" />
+      <workItem from="1590952004955" duration="4625000" />
+      <workItem from="1591229116909" duration="2009000" />
     </task>
+    <task id="LOCAL-00001" summary="começo">
+      <created>1590642545446</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590642545447</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Primeiro">
+      <created>1590696920716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590696920716</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="começo" />
+    <MESSAGE value="Primeiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeiro" />
   </component>
   <component name="WindowStateProjectService">
     <state x="288" y="35" key="#phpunit.xml" timestamp="1590637590124">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="288" y="35" key="#phpunit.xml/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590637590124" />
+    <state x="223" y="23" key="CommitChangelistDialog2" timestamp="1590696920346">
+      <screen x="0" y="23" width="1280" height="715" />
+    </state>
+    <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.715@0.23.1280.715" timestamp="1590696920346" />
+    <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1590642544975" />
+    <state x="505" y="99" key="RollbackChangesDialog" timestamp="1590983673502">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="505" y="99" key="RollbackChangesDialog/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1590983673502" />
     <state x="141" y="23" width="997" height="715" key="SettingsEditor" timestamp="1590632192380">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="141" y="23" width="997" height="715" key="SettingsEditor/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590632192380" />
+    <state x="240" y="109" key="Vcs.Push.Dialog.v2" timestamp="1590697029067">
+      <screen x="0" y="23" width="1280" height="715" />
+    </state>
+    <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.715@0.23.1280.715" timestamp="1590697029067" />
+    <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1590642548773" />
     <state x="294" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1590632177324">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="294" y="215" key="com.intellij.ide.util.TipDialog/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590632177324" />
-    <state x="1578" y="23" width="1007" height="667" key="dock-window-1" timestamp="1590637271075">
-      <screen x="1280" y="23" width="1600" height="877" />
+    <state x="238" y="23" width="806" height="540" key="dock-window-1" timestamp="1591229163897">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
+    <state x="238" y="23" width="806" height="540" key="dock-window-1/0.23.1280.709/1280.23.1600.877@0.23.1280.709" timestamp="1591229163897" />
     <state x="1578" y="23" width="1007" height="667" key="dock-window-1/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590637271075" />
-    <state x="298" y="23" width="683" height="715" key="find.popup" timestamp="1590637022858">
-      <screen x="0" y="23" width="1280" height="715" />
+    <state x="238" y="23" width="806" height="544" key="dock-window-1/0.23.1280.715@0.23.1280.715" timestamp="1590696891829" />
+    <state x="238" y="23" width="806" height="545" key="dock-window-1/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1590952011277" />
+    <state x="298" y="23" width="683" height="716" key="find.popup" timestamp="1590952528969">
+      <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="298" y="23" width="683" height="715" key="find.popup/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590637022858" />
+    <state x="298" y="23" width="683" height="716" key="find.popup/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1590952528969" />
   </component>
 </project>

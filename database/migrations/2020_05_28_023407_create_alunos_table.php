@@ -15,13 +15,13 @@ class CreateAlunosTable extends Migration
     {
         Schema::create('alunos', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('NumMatr', 7);
-            $table->string('CPF', 11);
-            $table->string('CodCur', 6);
-            $table->string('Nome', 45);
-            $table->date('Nascimento');
-            $table->boolean('Bolsa');
-            $table->string('Email', 30);
+            $table->string('num_mat', 7);
+            $table->string('cpf', 11);
+            $table->string('cod_cur', 6);
+            $table->string('nome', 45);
+            $table->date('nascimento');
+            $table->boolean('bolsa');
+            $table->string('email', 30);
             $table->timestamps();
             $table->softDeletes();
         });
