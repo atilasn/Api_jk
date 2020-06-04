@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9877b2e8-f8b3-4ec5-95c6-c5c9083ce892" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Alunos.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Alunos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_28_023407_create_alunos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_28_023407_create_alunos_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +154,7 @@
       <workItem from="1590633007174" duration="5789000" />
       <workItem from="1590696871864" duration="600000" />
       <workItem from="1590952004955" duration="4625000" />
-      <workItem from="1591229116909" duration="2009000" />
+      <workItem from="1591229116909" duration="2864000" />
     </task>
     <task id="LOCAL-00001" summary="começo">
       <created>1590642545446</created>
@@ -172,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590696920716</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Atualização no docker compose e outras">
+      <created>1591232914432</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591232914432</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,16 +188,18 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="começo" />
     <MESSAGE value="Primeiro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeiro" />
+    <MESSAGE value="Atualização no docker compose e outras" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualização no docker compose e outras" />
   </component>
   <component name="WindowStateProjectService">
     <state x="288" y="35" key="#phpunit.xml" timestamp="1590637590124">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="288" y="35" key="#phpunit.xml/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590637590124" />
-    <state x="223" y="23" key="CommitChangelistDialog2" timestamp="1590696920346">
+    <state x="223" y="23" key="CommitChangelistDialog2" timestamp="1591232914039">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
+    <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591232914039" />
     <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.715@0.23.1280.715" timestamp="1590696920346" />
     <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1590642544975" />
     <state x="505" y="99" key="RollbackChangesDialog" timestamp="1590983673502">
@@ -203,9 +210,10 @@
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="141" y="23" width="997" height="715" key="SettingsEditor/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590632192380" />
-    <state x="240" y="109" key="Vcs.Push.Dialog.v2" timestamp="1590697029067">
+    <state x="240" y="109" key="Vcs.Push.Dialog.v2" timestamp="1591232918055">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
+    <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591232918055" />
     <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.715@0.23.1280.715" timestamp="1590697029067" />
     <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1590642548773" />
     <state x="294" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1590632177324">
