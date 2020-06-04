@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9877b2e8-f8b3-4ec5-95c6-c5c9083ce892" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/crud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Alunos.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Alunos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AlunosController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AlunosController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_05_28_023407_create_alunos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_05_28_023407_create_alunos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +121,16 @@
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/tymon/jwt-auth" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1cW6mTae7HVL7PAfsy3GVYRdIc9" />
@@ -157,7 +168,7 @@
       <workItem from="1590633007174" duration="5789000" />
       <workItem from="1590696871864" duration="600000" />
       <workItem from="1590952004955" duration="4625000" />
-      <workItem from="1591229116909" duration="5222000" />
+      <workItem from="1591229116909" duration="8309000" />
     </task>
     <task id="LOCAL-00001" summary="começo">
       <created>1590642545446</created>
@@ -187,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591234536419</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Verbos ok">
+      <created>1591236996690</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591236996690</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,33 +218,34 @@
     <MESSAGE value="Primeiro" />
     <MESSAGE value="Atualização no docker compose e outras" />
     <MESSAGE value="Ajuste docker-compose.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste docker-compose.yml" />
+    <MESSAGE value="Verbos ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Verbos ok" />
   </component>
   <component name="WindowStateProjectService">
     <state x="288" y="35" key="#phpunit.xml" timestamp="1590637590124">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="288" y="35" key="#phpunit.xml/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590637590124" />
-    <state x="223" y="23" key="CommitChangelistDialog2" timestamp="1591234536088">
-      <screen x="0" y="23" width="1280" height="715" />
+    <state x="223" y="23" key="CommitChangelistDialog2" timestamp="1591236996416">
+      <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591234536088" />
     <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.715@0.23.1280.715" timestamp="1590696920346" />
-    <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1590642544975" />
-    <state x="505" y="99" key="RollbackChangesDialog" timestamp="1590983673502">
+    <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1591236996416" />
+    <state x="505" y="99" key="RollbackChangesDialog" timestamp="1591245850133">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
-    <state x="505" y="99" key="RollbackChangesDialog/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1590983673502" />
+    <state x="505" y="99" key="RollbackChangesDialog/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1591245850133" />
     <state x="141" y="23" width="997" height="715" key="SettingsEditor" timestamp="1590632192380">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="141" y="23" width="997" height="715" key="SettingsEditor/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590632192380" />
-    <state x="240" y="109" key="Vcs.Push.Dialog.v2" timestamp="1591234537691">
-      <screen x="0" y="23" width="1280" height="715" />
+    <state x="240" y="109" key="Vcs.Push.Dialog.v2" timestamp="1591236997911">
+      <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591234537691" />
     <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.715@0.23.1280.715" timestamp="1590697029067" />
-    <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1590642548773" />
+    <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1591236997911" />
     <state x="294" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1590632177324">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
