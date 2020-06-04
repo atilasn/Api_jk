@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +16,7 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <executable />
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="a108c6bf-dcb9-44cb-aa93-69526c95f1eb" />
     </execution>
   </component>
   <component name="Git.Settings">
@@ -131,6 +130,19 @@
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
     </include_path>
   </component>
   <component name="ProjectId" id="1cW6mTae7HVL7PAfsy3GVYRdIc9" />
@@ -168,7 +180,8 @@
       <workItem from="1590633007174" duration="5789000" />
       <workItem from="1590696871864" duration="600000" />
       <workItem from="1590952004955" duration="4625000" />
-      <workItem from="1591229116909" duration="8309000" />
+      <workItem from="1591229116909" duration="9555000" />
+      <workItem from="1591276006090" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="começo">
       <created>1590642545446</created>
@@ -205,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591236996690</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="JWT instalado.">
+      <created>1591245939216</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591245939216</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,19 +239,32 @@
     <MESSAGE value="Atualização no docker compose e outras" />
     <MESSAGE value="Ajuste docker-compose.yml" />
     <MESSAGE value="Verbos ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Verbos ok" />
+    <MESSAGE value="JWT instalado." />
+    <option name="LAST_COMMIT_MESSAGE" value="JWT instalado." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="228" y="56" key="#CLI_Interpreters" timestamp="1591276690574">
+      <screen x="0" y="23" width="1280" height="715" />
+    </state>
+    <state x="228" y="56" key="#CLI_Interpreters/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591276690574" />
     <state x="288" y="35" key="#phpunit.xml" timestamp="1590637590124">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="288" y="35" key="#phpunit.xml/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590637590124" />
-    <state x="223" y="23" key="CommitChangelistDialog2" timestamp="1591236996416">
+    <state x="223" y="23" key="CommitChangelistDialog2" timestamp="1591245938885">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591234536088" />
     <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.715@0.23.1280.715" timestamp="1590696920346" />
-    <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1591236996416" />
+    <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1591245938885" />
+    <state x="390" y="271" width="499" height="245" key="ComposerInitDialogKey" timestamp="1591276708057">
+      <screen x="0" y="23" width="1280" height="715" />
+    </state>
+    <state x="390" y="271" width="499" height="245" key="ComposerInitDialogKey/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591276708057" />
+    <state x="380" y="193" key="PHPComposerAddDependencyDialogDimensionKey" timestamp="1591276799188">
+      <screen x="0" y="23" width="1280" height="715" />
+    </state>
+    <state x="380" y="193" key="PHPComposerAddDependencyDialogDimensionKey/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591276799188" />
     <state x="505" y="99" key="RollbackChangesDialog" timestamp="1591245850133">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
@@ -240,12 +273,12 @@
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="141" y="23" width="997" height="715" key="SettingsEditor/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590632192380" />
-    <state x="240" y="109" key="Vcs.Push.Dialog.v2" timestamp="1591236997911">
+    <state x="240" y="109" key="Vcs.Push.Dialog.v2" timestamp="1591245941873">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591234537691" />
     <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.715@0.23.1280.715" timestamp="1590697029067" />
-    <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1591236997911" />
+    <state x="240" y="109" key="Vcs.Push.Dialog.v2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1591245941873" />
     <state x="294" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1590632177324">
       <screen x="0" y="23" width="1280" height="715" />
     </state>
