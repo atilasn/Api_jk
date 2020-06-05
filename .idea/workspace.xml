@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9877b2e8-f8b3-4ec5-95c6-c5c9083ce892" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Resources/Alunos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,6 +183,8 @@
       <workItem from="1591229116909" duration="9555000" />
       <workItem from="1591276006090" duration="3641000" />
       <workItem from="1591297780821" duration="178000" />
+      <workItem from="1591302363805" duration="533000" />
+      <workItem from="1591324356598" duration="2258000" />
     </task>
     <task id="LOCAL-00001" summary="começo">
       <created>1590642545446</created>
@@ -233,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591276925292</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ajuste">
+      <created>1591302430741</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591302430741</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +258,8 @@
     <MESSAGE value="Verbos ok" />
     <MESSAGE value="JWT instalado." />
     <MESSAGE value="Instalação passaport" />
-    <option name="LAST_COMMIT_MESSAGE" value="Instalação passaport" />
+    <MESSAGE value="Ajuste" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste" />
   </component>
   <component name="WindowStateProjectService">
     <state x="228" y="56" key="#CLI_Interpreters" timestamp="1591276690574">
@@ -260,12 +270,13 @@
       <screen x="0" y="23" width="1280" height="715" />
     </state>
     <state x="288" y="35" key="#phpunit.xml/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1590637590124" />
-    <state x="223" y="23" key="CommitChangelistDialog2" timestamp="1591276924664">
-      <screen x="0" y="23" width="1280" height="715" />
+    <state x="223" y="23" key="CommitChangelistDialog2" timestamp="1591302429640">
+      <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.715/1280.23.1600.877@0.23.1280.715" timestamp="1591276924664" />
     <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.715@0.23.1280.715" timestamp="1590696920346" />
     <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.716/1280.23.1600.877@0.23.1280.716" timestamp="1591245938885" />
+    <state x="223" y="23" key="CommitChangelistDialog2/0.23.1280.716@0.23.1280.716" timestamp="1591302429640" />
     <state x="390" y="271" width="499" height="245" key="ComposerInitDialogKey" timestamp="1591276708057">
       <screen x="0" y="23" width="1280" height="715" />
     </state>

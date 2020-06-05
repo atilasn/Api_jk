@@ -13,20 +13,22 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-//Route::post('register', 'API\RegisterController@register');
-//Route::post('login', 'API\RegisterController@login');
+Route::post('register', 'RegisterController@register');
+Route::post('login', 'RegisterController@login');
 
 //Route::middleware('auth:api')->get('/user', function (Request $request) {
 //    return $request->user();
 //});
 
-Route::middleware('auth:api')->group( function () {
-    Route::get('/', function () {
-        return response()->json(['message' => 'Jobs API', 'status' => 'Connected']);;
-    });
-});
+//Route::middleware('auth:api')->group( function () {
+//    Route::get('/', function () {
+//        return response()->json(['message' => 'Jobs API', 'status' => 'Connected']);;
+//    });
+//});
 
-Route::resource('alunos', 'AlunosController');
+Route::middleware('auth:api')->group( function () {
+    Route::resource('alunos', 'AlunosController');
+});
 
 Route::get('/', function () {
     return redirect('api');
